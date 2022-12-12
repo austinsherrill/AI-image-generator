@@ -18,6 +18,8 @@ body {
   line-height: 1.5;
   color: #333;
   background: #f4f4f4;
+  width: 100vw;
+  position: fixed;
 }
 
 /* Navbar */
@@ -76,7 +78,7 @@ body {
 form select {
   font-size: 20px;
   width: 500px;
-  max-width: 500px;
+  max-width: 90vw;
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
